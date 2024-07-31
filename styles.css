@@ -1,0 +1,748 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Styling for links (e.g., Explore Menu button) */
+a.cta-button {
+    display: inline-block;
+    background-color: #ff6347; /* Tomato red */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a.cta-button:hover {
+    background-color: #ff0000; /* Darker red on hover */
+}
+
+/* Menu Styling */
+#menu {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.menu-item {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #ff6347; /* Tomato red for price */
+}
+
+/* Specialties Styling */
+#specialties {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.specialty-item {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.specialty-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.specialty-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.specialty-item p {
+    font-size: 16px;
+}
+
+.specialty-item .price {
+    font-weight: bold;
+    color: #ff6347; /* Tomato red for price */
+}
+
+/* Contact Us Styling */
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+/* Testimonials Styling */
+#testimonials {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 18px;
+}
+
+/* Newsletter Styling */
+#newsletter {
+    background-color: #ffcc66; /* Light orange background */
+    color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+#newsletter h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#newsletter p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#newsletter input[type="submit"] {
+    background-color: #222; /* Dark gray button background */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#newsletter input[type="submit"]:hover {
+    background-color: #ff6347; /* Tomato red on hover */
+}
+
+/* Additional Custom Styling and Content for Other Sections */
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Blog Styling */
+#blog {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.blog-post {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.blog-post p {
+    font-size: 16px;
+}
+
+.blog-post a {
+    display: inline-block;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.blog-post a:hover {
+    background-color: #ff0000;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDE8A5; /* Light yellow background */
+    color: #333;
+}
+
+/* Header Styling */
+#header {
+    background-color: #FF6347; /* Tomato red */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 18px;
+}
+
+/* Button Styling */
+.cta-button {
+    display: inline-block;
+    background-color: #222; /* Dark gray button background */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FF6347; /* Tomato red on hover */
+}
+
+/* Section Styling (e.g., About, Menu, Specialties) */
+#about, #menu, #specialties, #order, #blog, #events, #contact {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+#about h2, #menu h2, #specialties h2, #order h2, #blog h2, #events h2, #contact h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Menu Item Styling */
+.menu-item, .specialty-item {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #F4D03F; /* Light yellow menu item background */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.menu-item h3, .specialty-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p, .specialty-item p {
+    font-size: 16px;
+}
+
+.menu-item .price, .specialty-item .price {
+    font-weight: bold;
+    color: #FF6347; /* Tomato red for price */
+}
+
+/* Newsletter Styling */
+#newsletter {
+    background-color: #FFA07A; /* Light salmon background */
+    color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+#newsletter h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#newsletter p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#newsletter input[type="submit"] {
+    background-color: #222; /* Dark gray button background */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#newsletter input[type="submit"]:hover {
+    background-color: #FF6347; /* Tomato red on hover */
+}
+
+/* Social Media Links */
+#social-media a {
+    text-decoration: none;
+    color: #FF6347; /* Tomato red for social media links */
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Footer Styling */
+#footer {
+    background-color: #222; /* Dark gray footer background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer p {
+    font-size: 14px;
+}
+/* Your existing CSS styles */
+
+/* Hide the menu by default */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.food-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.food-details {
+    flex: 1;
+}
+
+/* Additional styling as needed */
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;
+}
+
+/* Header Styling (Homepage) */
+header {
+    background-color: #222; /* Dark gray background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Menu Styling */
+#menu {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.menu-item {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e0e0e0; /* Lighter gray background */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #ff6347; /* Tomato red for price */
+}
+
+/* Specialties Styling */
+#specialties {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.specialty-item {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e0e0e0; /* Lighter gray background */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.specialty-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.specialty-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.specialty-item p {
+    font-size: 16px;
+}
+
+.specialty-item .price {
+    font-weight: bold;
+    color: #ff6347; /* Tomato red for price */
+}
+
+/* Rest of your CSS remains the same */
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Dull gray background */
+    color: #333;
+}
+
+/* Header Styling (Homepage) */
+header {
+    background-color: #222; /* Dark gray background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Menu Styling */
+#menu {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.menu-item {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+}
+
+/* Specialties Styling */
+#specialties {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.specialty-item {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.specialty-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.specialty-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.specialty-item p {
+    font-size: 16px;
+}
+
+.specialty-item .price {
+    font-weight: bold;
+}
+
+/* Rest of your CSS remains the same */
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Default background color */
+    color: #333;
+}
+
+/* Header Styling (Homepage) */
+header {
+    background-color: #222; /* Dark background color for the header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Menu Styling */
+#menu {
+    background-color: #ffc107; /* Yellow background color for the menu section */
+    padding: 20px;
+}
+
+/* Specialties Styling */
+#specialties {
+    background-color: #4caf50; /* Green background color for the specialties section */
+    padding: 20px;
+}
+
+/* Contact Us Styling */
+#contact {
+    background-color: #e91e63; /* Pink background color for the contact section */
+    padding: 20px;
+}
+
+/* Testimonials Styling */
+#testimonials {
+    background-color: #2196F3; /* Blue background color for the testimonials section */
+    padding: 20px;
+}
+
+/* Newsletter Styling */
+#newsletter {
+    background-color: #FF5722; /* Orange background color for the newsletter section */
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Rest of your CSS remains the same */
+
+
+
+/* Add your CSS styles here to style your website */
+/* Example: Style the navigation menu */
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style other sections and elements as needed */
+.order-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.left-column {
+    margin-right: 10px;
+}
+.order-table {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.left-column, .right-column, .card-info {
+    display: table-cell;
+    padding: 10px;
+}
