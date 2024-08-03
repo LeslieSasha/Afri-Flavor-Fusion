@@ -71,7 +71,7 @@ a.cta-button:hover {
 }
 
 .menu-item p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .menu-item .price {
@@ -107,7 +107,7 @@ a.cta-button:hover {
 }
 
 .specialty-item p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .specialty-item .price {
@@ -128,7 +128,7 @@ a.cta-button:hover {
 }
 
 .contact p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .contact form {
@@ -242,7 +242,7 @@ footer {
 }
 
 .blog-post p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .blog-post a {
@@ -332,7 +332,7 @@ body {
 }
 
 .menu-item p, .specialty-item p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .menu-item .price, .specialty-item .price {
